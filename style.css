@@ -1,71 +1,24 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom, #a2d5c6, #f9f7f7);
-    color: #333;
-}
+/* ... o resto do código permanece igual ... */
 
-header {
-    background-color: #4a7c59;
-    color: white;
+#conexao {
+    background-color: #d6e8d6;
+    border: 2px solid #4a7c59;
+    margin-top: 2rem;
     padding: 1.5rem;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    flex-wrap: wrap;
-}
-
-.festas {
-    background-color: #f0f0f0;
     border-radius: 8px;
-    width: 350px;
-    margin: 1rem;
-    padding: 1.5rem;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 720px;
+    box-shadow: 0 0 10px rgba(74, 124, 89, 0.3);
 }
 
-.festas h2 {
-    color: #2f4f4f;
-}
-
-.festas ul {
-    list-style-type: square;
-    margin-left: 1.2rem;
-}
-
-button {
-    background-color: #4a7c59;
-    color: white;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #3b6446;
-}
-
-.msg {
-    margin-top: 1rem;
-    font-style: italic;
-    color: #555;
-}
-
-footer {
+#conexao h2 {
+    color: #356b35;
     text-align: center;
-    padding: 1rem;
-    background-color: #4a7c59;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+#conexao p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #2f4f2f;
 }
